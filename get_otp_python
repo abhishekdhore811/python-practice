@@ -1,0 +1,7 @@
+from numpy import random as r
+def otpgen():
+    otp=""
+    for i in range(5):
+        otp=otp+str(r.randint(0,9))
+    print("your otp is:", otp)
+otpgen()
